@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHealth Analytics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="graphics/chart-scatter.svg" alt="TechHealth Analytics Logo">
+                <span>TechHealth Analytics</span>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#login" class="login-btn">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Health With Data</h1>
+            <p>Leading the revolution in digital health monitoring and analytics</p>
+            <div class="hero-buttons">
+                <button class="primary-btn">Get Started</button>
+                <button class="secondary-btn">Learn More</button>
+            </div>
+        </div>
+        <!-- <div class="hero-image">
+            <img src="graphics/pexels-ketut-subiyanto-4428994.jpg" alt="Health Analytics Dashboard">
+        </div> -->
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Our Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-heartbeat"></i>
+                <h3>Health Monitoring</h3>
+                <p>Real-time health metrics tracking and analysis</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Advanced Analytics</h3>
+                <p>AI-powered insights and predictions</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Mobile Integration</h3>
+                <p>Seamless connection with all devices</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Data Security</h3>
+                <p>Enterprise-grade security protocols</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+<section id="products" class="products">
+    <h2>Our Products</h2>
+    
+    <div class="product-carousel">
+        <button class="carousel-button prev">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="graphics/pexels-ketut-subiyanto-4908545.jpg" alt="HealthTrack Lite">
+                </div>
+                <div class="product-info">
+                    <h3>HealthTrack Lite</h3>
+                    <p class="price">$199.99</p>
+                    <p class="description">Essential health tracking for everyday use</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Basic Health Monitoring</li>
+                        <li><i class="fas fa-check"></i> Step Counting</li>
+                        <li><i class="fas fa-check"></i> Sleep Tracking</li>
+                    </ul>
+                    <button class="primary-btn">Learn More</button>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="graphics/pexels-ketut-subiyanto-4428994.jpg" alt="HealthTrack Pro">
+                </div>
+                <div class="product-info">
+                    <h3>HealthTrack Pro</h3>
+                    <p class="price">$299.99</p>
+                    <p class="description">Advanced health monitoring with premium features</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> 24/7 Heart Rate Monitoring</li>
+                        <li><i class="fas fa-check"></i> Sleep Analysis</li>
+                        <li><i class="fas fa-check"></i> GPS Tracking</li>
+                    </ul>
+                    <button class="primary-btn">Learn More</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="graphics/pexels-ketut-subiyanto-4436303.jpg" alt="HealthTrack Elite">
+                </div>
+                <div class="product-info">
+                    <h3>HealthTrack Elite</h3>
+                    <p class="price">$499.99</p>
+                    <p class="description">Professional-grade health and fitness tracking</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Advanced Health Metrics</li>
+                        <li><i class="fas fa-check"></i> ECG Monitoring</li>
+                        <li><i class="fas fa-check"></i> Stress Tracking</li>
+                    </ul>
+                    <button class="primary-btn">Learn More</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="graphics/pexels-karolina-grabowska-4498483.jpg" alt="HealthSync App">
+                </div>
+                <div class="product-info">
+                    <h3>HealthSync App</h3>
+                    <p class="price">Free with Subscription</p>
+                    <p class="description">Comprehensive health data analysis platform</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Real-time Monitoring</li>
+                        <li><i class="fas fa-check"></i> Personalized Insights</li>
+                        <li><i class="fas fa-check"></i> Health Trends</li>
+                    </ul>
+                    <button class="primary-btn">Download</button>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-button next">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <div class="carousel-dots"></div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <form id="contactForm">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="primary-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>TechHealth Analytics</h4>
+                <p>Transforming health through technology</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#solutions">Solutions</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 TechHealth Analytics. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
